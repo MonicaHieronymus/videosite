@@ -3,3 +3,21 @@ width: 100%;
 aspect-ratio: 16/9;
 }
 
+main img {
+width: 30%;
+aspect-ratio: 16/9;
+}
+
+.grid_1-1 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.grid_1-1 p {
+margin-left: 2em;
+margin-top: -0.1em;
+}
+
+.stilphotos {
+margin-top: 1.5em;
+}
