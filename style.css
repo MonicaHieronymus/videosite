@@ -22,3 +22,15 @@ margin-top: -0.1em;
 margin-top: 1.5em;
 }
 
+h1 {
+background-color: rgb(228, 65, 65);
+text-align: center;
+color: white;
+border-radius: 2em;
+margin-top: 2;
+font-size: 62px;
+}
+
+body {
+background-color: rgb(33, 32, 32);
+}
