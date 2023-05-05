@@ -1,36 +1,50 @@
+
+
 main video {
 width: 100%;
 aspect-ratio: 16/9;
 }
 
 main img {
-width: 30%;
+width: 100%;
 aspect-ratio: 16/9;
-}
-
-.grid_1-1 {
-display: grid;
-grid-template-columns: 1fr 1fr;
-}
-
-.grid_1-1 p {
-margin-left: 2em;
-margin-top: -0.1em;
 }
 
 .stilphotos {
 margin-top: 1.5em;
+width: 100%;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 0.5em;
 }
 
 h1 {
 background-color: rgb(228, 65, 65);
 text-align: center;
 color: white;
-border-radius: 2em;
 margin-top: 2;
 font-size: 62px;
+font-family: 'Bruno Ace SC', cursive;
 }
 
 body {
 background-color: rgb(33, 32, 32);
+margin: 1.5em;
 }
+
+p {
+color: white;
+}
+
+
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .grid_1-1 p {
+    margin-left: 2em;
+    margin-top: -0.1em;
+    }
