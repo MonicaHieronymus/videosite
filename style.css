@@ -1,50 +1,58 @@
 
-
-main video {
-width: 100%;
-aspect-ratio: 16/9;
-}
-
-main img {
-width: 100%;
-aspect-ratio: 16/9;
-}
-
-.stilphotos {
-margin-top: 1.5em;
-width: 100%;
-text-align: center;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 0.5em;
-}
-
-h1 {
-background-color: rgb(228, 65, 65);
-text-align: center;
-color: white;
-margin-top: 2;
-font-size: 62px;
-font-family: 'Bruno Ace SC', cursive;
-}
-
-body {
-background-color: rgb(33, 32, 32);
-margin: 1.5em;
-}
-
-p {
-color: white;
-}
-
-
-
-.grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
-    
-    .grid_1-1 p {
-    margin-left: 2em;
-    margin-top: -0.1em;
-    }
+        main video {
+            width: 100%;
+            aspect-ratio: 16/9;
+            }
+            
+            main img {
+            width: 100%;
+            aspect-ratio: 16/9;
+            }
+            
+            .stilphotos {
+            margin-top: 1.5em;
+            width: 100%;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1em;
+            }
+            
+            h1 {
+            background-color: rgb(228, 65, 65);
+            text-align: center;
+            color: white;
+            margin-top: 2;
+            font-size: 42px; 
+            font-family: 'Bruno Ace SC', cursive;
+            }
+            
+            body {
+            background-color: rgb(33, 32, 32);
+            margin: 1.5em;
+            }
+            
+            p {
+            color: rgb(193, 124, 65);
+            }
+            
+            
+            
+            .grid_1-1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                }
+                
+                .grid_1-1 p {
+                margin-left: -7.5em;
+                margin-top: 2em;
+                font-size: 20px;
+                text-align: 2em;
+                }
+            
+            .filmplakat {
+            width: 150%;
+            margin-left: 2em;
+            margin-top: 1.5em;
+            }    
+            
