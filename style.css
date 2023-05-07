@@ -42,7 +42,7 @@ h1 {
   background-color: rgb(228, 65, 65);
   text-align: center;
   color: white;
-  margin-top: 2;
+  margin-top: 0.5em;
   font-size: 42px;
   font-family: "Bruno Ace SC", cursive;
 }
@@ -66,7 +66,6 @@ p {
   margin-left: -9em;
   margin-top: 2em;
   font-size: 20px;
-  text-align: 2em;
 }
 
 .filmplakat {
