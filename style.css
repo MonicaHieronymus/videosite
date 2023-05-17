@@ -1,5 +1,6 @@
 main video {
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
 }
 
@@ -72,4 +73,12 @@ p {
   width: 150%;
   margin-left: 2em;
   margin-top: 1.5em;
+}
+
+iframe {
+width: 100%;
+height: auto;
+
+aspect-ratio: 16/9;
+  
 }
