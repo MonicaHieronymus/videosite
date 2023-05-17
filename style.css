@@ -64,9 +64,9 @@ p {
 }
 
 .grid_1-1 p {
-  margin-left: -9em;
+  margin-left: -6em;
   margin-top: 2em;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .filmplakat {
@@ -80,5 +80,76 @@ width: 100%;
 height: auto;
 
 aspect-ratio: 16/9;
+
+margin-top: 5em;
   
+}
+
+@media screen and (max-width:600px){
+
+  h1 {
+    background-color: rgb(228, 65, 65);
+    text-align: center;
+    color: white;
+    margin-top: 0.5em;
+    font-size: 23px;
+    font-family: "Bruno Ace SC", cursive;
+  }
+
+  .filmplakat {
+    width: 180%;
+    margin-left: 0.1em;
+    margin-top: 1.5em;
+  }
+
+  .grid_1-1 p {
+    margin-left: -3.5em;
+    margin-top: 2em;
+    font-size: 16px;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .chrys {
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    margin-left: 0.2em;
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.stilphotos {
+margin: auto;
+  margin-top: -17.4em;
+  margin-left: 10.9em;
+  width: 67%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.fam {
+    margin: auto;
+    margin-top: 1.4em;
+    margin-left: 10.9em;
+    width: 67%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  
+  margin-top: 3em;
+  }
+
 }
